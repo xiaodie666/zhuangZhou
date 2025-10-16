@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><h1>小周的第一个网页简介</h1></title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      p.HS {
+        color: #f46308;
+      }
+      p.FS {
+        color: #e42bac;
+      }
+      p.ZS {
+        color: rgb(78, 100, 243);
+      }
+    </style>
+    <div style="background-color: #ceef99; text-align: center; padding: 40px">
+      <img src="chifanmao.png" alt="小周" width="200" height="200" />
+    </div>
+    <div style="background-color: #c2f6a6; text-align: center; padding: 40px">
+      <p>大家好</p>
+      <p>我是一个喜欢吃美食，喜欢运动的养生爱好者</p>
+      <p>俗话说：不喜欢打游戏的网上冲浪者不是一个好读者</p>
+      <p>希望我能变成自己喜欢的样子</p>
+    </div>
+    <div style="background-color: #c8e7f3; text-align: center; padding: 20px">
+      <p>有几个喜欢的句子，想分享给你</p>
+      <p class="HS">出发总是美丽的，尤其是在一个阳光明媚的早晨上路</p>
+      <p class="ZS">莫愁千里路，自有到来风</p>
+      <p class="FS">
+        要记住，你的价值不在于如何回应别人的期待，而在于如何回应自己的内心。 慢慢改变，慢慢变好，这才是你给自己最大的礼物。
+      </p>
+    </div>
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+    ></div>
+    <div
+      style="max-width: 700px; margin: 30px auto; padding: 15px; line-height: 2"
+    ></div>
+
+    <div
+      style="
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+      "
+    >
+      <p>我的网站</p>
+      <a href="https://www.bilibili.com/">我的网站</a>
+      <p>
+        <a href="two.html">前往第二页</a>
+      </p>
+    </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  </body>
+</html>
